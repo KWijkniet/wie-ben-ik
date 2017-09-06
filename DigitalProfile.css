@@ -6,21 +6,19 @@ body{
 	background-color: lightgray;
 }
 
-page {
-  background: white;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 0.5cm;
-  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
-}
 
-page[class="A4"] {  
-  width: 21cm;
-  height: 29.7cm; 
+div.A4{
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    width: 21cm;
+    height: 29.7cm; 
 }
 
 @media print {
-  body, page {
+  body, div.A4 {
     margin: 0;
     box-shadow: 0;
   }
